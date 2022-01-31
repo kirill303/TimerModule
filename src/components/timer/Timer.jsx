@@ -1,6 +1,6 @@
 import React, { useMemo } from "react";
 import { useEffect, useState } from "react/cjs/react.development";
-import start from "../../hooks/start.hook";
+import start from "./start";
 import './timer.css';
 function Timer({ time, userStyle, text, description }) {
 
