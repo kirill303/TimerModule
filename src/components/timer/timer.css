@@ -1,0 +1,43 @@
+:root{
+   --background1:black;
+   --background2: yellow;
+   --fontSizeTimer: 2em;
+   --fontSizeText: 1em;
+   --fontSizeDesription: 1em;
+}
+.timer-cont{
+   width: 100%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-around;
+   padding: 20px;
+   background-color: var(--background1);
+   font-family:sans-serif;
+
+}.timer{
+   width: 100%;
+   height: 100%;
+   background-color: var(--background2);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   }
+.timer__text{
+   font-weight: 700;
+   text-align: center;
+   color: var(--background2);
+   font-size: var(--fontSizeText);
+}
+
+.timer__description{
+   font-weight: 400;
+   color: var(--background2);
+   font-size: var(--fontSizeDesription);
+}
+
+.timeP{
+   font-size: var( --fontSizeTimer);
+   list-style: none;
+}
